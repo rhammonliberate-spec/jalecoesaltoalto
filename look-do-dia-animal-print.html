@@ -20,6 +20,44 @@
   .post-list li { border-bottom: 1px solid #eee; padding: 12px 0; }
   .post-list a { color: #1a1a2e; text-decoration: none; font-size: 1.05em; }
   .post-list a:hover { color: #0066cc; }
+
+  /* POST META — autor + data */
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 28px;
+    font-size: 0.82rem;
+    color: #888;
+  }
+  .post-meta .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--accent, #c47b5a);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.72rem;
+    flex-shrink: 0;
+  }
+  .post-meta .meta-info strong { color: #444; }
+  .post-meta .meta-info span { margin-left: 6px; }
+  /* INDEX card-meta */
+  .card-meta {
+    font-size: 0.72rem;
+    color: #aaa;
+    margin-top: 8px;
+  }
+  /* LIST meta inline */
+  .list-meta {
+    font-size: 0.75rem;
+    color: #999;
+    display: block;
+    margin-top: 2px;
+  }
 </style>
 </head>
 <body>
@@ -27,7 +65,9 @@
   <a href="/">Jaleco e Salto Alto</a>
   <nav><a href="/">Início</a> <a href="/blog">Blog</a></nav>
 </header>
-<article><h1>Animal Print no Look Profissional: Como Usar Sem Exagerar</h1><p>Animal print voltou com tudo — e a boa notícia é que dá para usar de forma super elegante mesmo em ambientes profissionais. O segredo está no equilíbrio.</p>
+<article><h1>Animal Print no Look Profissional: Como Usar Sem Exagerar</h1>
+<div class="post-meta"><div class="avatar" style="background:#c47b5a">MF</div><div class="meta-info"><strong>Mariana Fontes</strong> &middot; <em>Redatora de Moda Profissional</em><span>· 11 de janeiro de 2026</span></div></div>
+<p>Animal print voltou com tudo — e a boa notícia é que dá para usar de forma super elegante mesmo em ambientes profissionais. O segredo está no equilíbrio.</p>
 
 <h2>A Regra de Ouro</h2>
 <p>Uma peça de animal print por vez. Só. A calça de oncinha pede blusa lisa e jaleco branco. O lenço de leopard pede look completamente neutro. O animal print é a estrela — não concorre com outras peças.</p>
