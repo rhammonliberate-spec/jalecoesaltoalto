@@ -20,6 +20,44 @@ A Psicologia da Primeira Im">
   .post-list li { border-bottom: 1px solid #eee; padding: 12px 0; }
   .post-list a { color: #1a1a2e; text-decoration: none; font-size: 1.05em; }
   .post-list a:hover { color: #0066cc; }
+
+  /* POST META — autor + data */
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 28px;
+    font-size: 0.82rem;
+    color: #888;
+  }
+  .post-meta .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--accent, #c47b5a);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.72rem;
+    flex-shrink: 0;
+  }
+  .post-meta .meta-info strong { color: #444; }
+  .post-meta .meta-info span { margin-left: 6px; }
+  /* INDEX card-meta */
+  .card-meta {
+    font-size: 0.72rem;
+    color: #aaa;
+    margin-top: 8px;
+  }
+  /* LIST meta inline */
+  .list-meta {
+    font-size: 0.75rem;
+    color: #999;
+    display: block;
+    margin-top: 2px;
+  }
 </style>
 </head>
 <body>
@@ -27,7 +65,9 @@ A Psicologia da Primeira Im">
   <a href="/">Jaleco e Salto Alto</a>
   <nav><a href="/">Início</a> <a href="/blog">Blog</a></nav>
 </header>
-<article><h1>O que Seu Jaleco Diz Sobre Você (Mesmo Quando Você Não Está Falando)</h1><p>Antes de você abrir a boca, o paciente já formou uma opinião. Em menos de 7 segundos. E o jaleco é grande parte dessa equação.</p>
+<article><h1>O que Seu Jaleco Diz Sobre Você (Mesmo Quando Você Não Está Falando)</h1>
+<div class="post-meta"><div class="avatar" style="background:#c47b5a">MF</div><div class="meta-info"><strong>Mariana Fontes</strong> &middot; <em>Redatora de Moda Profissional</em><span>· 30 de dezembro de 2025</span></div></div>
+<p>Antes de você abrir a boca, o paciente já formou uma opinião. Em menos de 7 segundos. E o jaleco é grande parte dessa equação.</p>
 
 <h2>A Psicologia da Primeira Impressão</h2>
 <p>Jaleco amassado e manchado diz: "me viro com o que tenho". Jaleco limpo, bem cuidado e com bom caimento diz: "tenho padrão em tudo que faço". Nenhuma das duas mensagens é consciente — mas ambas são recebidas e processadas.</p>
